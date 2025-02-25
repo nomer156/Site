@@ -1,0 +1,14 @@
+{
+  "name": "sasha/my-site",
+  "description": "My site for Vexio",
+  "autoload": {
+    "psr-4": {
+      "Sasha\\MySite\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "xpaw/php-source-query-class": "^2.0"
+  }
+}
